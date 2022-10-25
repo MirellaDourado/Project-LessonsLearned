@@ -1,0 +1,153 @@
+body {
+  background-color: rgb(253, 251, 251);
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-family:'Comfortaa', cursive;
+}
+
+  h1 {
+  font-size: 25px;
+  margin-left: 20px;
+  text-align: center;
+  color: #303030;
+  font-weight: 900;
+}
+
+#cabecalho {
+  position: fixed;
+  top: 0;
+  background-color: rgb(253, 251, 251);
+  width: 100%;
+  box-shadow: 0 0 1em rgb(0, 0, 0);
+}
+
+/*-------------------*/
+
+#background-image1 {
+  height: 100vh;
+  overflow-x: hidden;
+  background-image: url(assets/clouds.jpg);
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  box-shadow:  inset 1px 1px 40px 10px black;
+}
+       
+/*-----------------------*/
+        
+main {
+  margin-right: 20px;
+  height: 100vh;
+  padding-top: 70px;
+  box-shadow: 0 0 1em rgb(0, 0, 0);
+  width: 100%;
+}
+
+picture{
+  margin: 0;
+  padding: 0;
+}
+
+#about {
+  float: right;
+  width: 56%;
+  text-align: justify;
+  padding-right: 20px;
+  line-height: 26px;
+}
+
+.lado-esquerdo{
+  display: inline-block;
+  width: 50%;
+  margin: 0;
+  font-size: 18px;
+}
+
+.lado-direito{
+  width: 45%;
+  float: right;
+  margin: 0;
+  font-size: 18px;
+}
+a {
+  text-decoration: none;
+  color: #303030;
+  padding-left: 72%;
+  font-size: 22px;
+}
+a:hover{
+  color: black;
+  font-weight: 900;
+}
+/*------------------*/
+#background-image2 {
+  height: 100vh;
+  overflow-x: hidden;
+  background-image: url(assets/cat.jpg);
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  box-shadow:  inset 1px 1px 40px 10px black;
+}
+#content {
+  height: 100vh;
+  padding-top: 70px;
+  box-shadow: 0 0 1em rgb(0, 0, 0);
+  width: 100%;
+}
+.listas {
+  display: inline-block;
+}
+ol {
+  padding-left: 33%;
+}
+ul {
+  padding-left: 25%;
+}
+h2 {
+  font-size: 30px;
+  line-height: 50px;
+}
+#secao-a-aprender {
+  float: right;
+}
+section {
+  width: 50%;
+  margin: 0px;
+}
+ul,ol {
+  line-height: 35px;
+}
+/*--------------------*/
+#background-image3 {
+  height: 100vh;
+  overflow-x: hidden;
+  background-image: url(assets/book.jpg);
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  box-shadow:  inset 1px 1px 40px 10px black;
+}
+/*-----------------*/
+#tabela {
+  margin-left: 545px;
+}
+td{
+  padding: 5px 30px;
+}
+th{
+  color: #3A3A3A;
+  font-weight: bolder;
+  text-transform: uppercase;
+}
+
+/*------------------------*/
+#rodape{
+  color: #020202;
+  font-size: 12px;
+  margin-top: 20px;
+  text-align: center;
+  margin-bottom: 0;
+  width: 100%;
+}
